@@ -7,3 +7,5 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+jwt:
+  secret: mi_clave_secreta_para_jwt_que_deberia_ser_mas_larga
