@@ -96,4 +96,9 @@ public class TicketServiceImpl implements TicketService {
     public List<TicketResponseList> getAllTickets() {
         return TicketMapper.toDTOList(ticketRepository.findAll());
     }
+
+    @Override
+    public List<TicketResponseList> getTicketsByUsuarioId(Long usuarioId) {
+        return TicketMapper.toDTOList(ticketRepository.findByUsuarioId(usuarioId));
+    }
 }
