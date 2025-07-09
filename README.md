@@ -4,7 +4,7 @@ Este repositorio contiene un proyecto para evaluar y practicar los conceptos de 
 
 ### Estudiantes
 - **Nombre del estudiante 1**: Luis Andree Hernandez Maltez 00012321
-- **Nombre del estudiante 2**: CHRISTIA ALEXIS MERINO CHAVEZ 00002521
+- **Nombre del estudiante 2**: Christian Alexis Merino Chavez 00002521
 - Sección: 01
 ---
 
