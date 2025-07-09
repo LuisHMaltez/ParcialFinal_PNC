@@ -47,30 +47,3 @@ Puedes autenticarte usando los siguientes usuarios de ejemplo:
    ```
 3. Puedes importar la colección de Insomnia/Postman incluida en `src/main/resources/` para facilitar las pruebas.
 
----
-
-## Comandos útiles
-
-- **Detener los contenedores:**
-  ```sh
-  docker-compose down
-  ```
-- **Ver los logs en tiempo real:**
-  ```sh
-  docker-compose logs -f
-  ```
-- **Reconstruir la imagen (si cambiaste el código):**
-  ```sh
-  docker-compose up --build
-  ```
-
----
-
-## Notas adicionales
-
-- Si necesitas ejecutar comandos dentro del contenedor de la app:
-  ```sh
-  docker-compose exec app bash
-  ```
-- Puedes modificar los puertos en el archivo `docker-compose.yml` si es necesario.
-- La base de datos se inicializa automáticamente con los usuarios de prueba.
