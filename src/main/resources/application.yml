@@ -8,4 +8,4 @@ spring:
       ddl-auto: update
     show-sql: true
 jwt:
-  secret: mi_clave_secreta_para_jwt_que_deberia_ser_mas_larga
+  secret: 15941596465151591515191615344984876543741515819194919189
