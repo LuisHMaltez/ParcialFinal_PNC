@@ -17,7 +17,10 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nombre;
+    
+    @Column(unique = true)
     private String correo;
+    
     private String password;
     private String nombreRol; // USER o TECH
 }

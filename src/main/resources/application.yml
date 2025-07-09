@@ -2,8 +2,22 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/supportdb
     username: postgres
-    password: root
+    password: Admin
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:data.sql
+      continue-on-error: true
+      platform: postgresql
+
+application:
+  security:
+    jwt:
+      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      expiration: 86400000 # 24 horas en milisegundos
+      refresh-token:
+        expiration: 604800000 # 7 días en milisegundos
